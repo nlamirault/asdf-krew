@@ -58,7 +58,7 @@ get_filename() {
   # local version_short
   # version_short=$(echo "$version" | tr -d "v")
 
-  echo "${binary_name}.tar.gz"
+  echo "${binary_name}-${platform}.tar.gz"
 }
 
 # https://github.com/kubernetes-sigs/krew/releases/download/v0.3.4/krew.tar.gz
